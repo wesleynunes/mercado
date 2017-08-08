@@ -46,8 +46,7 @@
                         "class" => "btn btn-primary",
                         "content" => "Cadastrar",
                         "type" => "submit"
-                    ));
-                  
+                    ));                  
                 echo form_close();
             ?>
         </div>
