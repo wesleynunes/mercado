@@ -3,7 +3,7 @@
 class Usuarios extends CI_Controller{
     public function novo(){
 
-        $this->output->enable_profiler(TRUE); // debugar codigo
+        //$this->output->enable_profiler(TRUE); // debugar codigo
 
         $usuario = array(
             "nome"  => $this->input->post("nome"),
